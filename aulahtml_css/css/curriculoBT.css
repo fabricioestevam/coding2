@@ -1,0 +1,128 @@
+/* Estilos gerais do currículo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Cor de fundo */
+    color: #333; /* Cor do texto */
+}
+
+#apresentacao {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a apresentação */
+    border-bottom: 2px solid #007BFF; /* Linha azul abaixo da apresentação */
+}
+
+#apresentacao img {
+    height: 200px;
+    border-radius: 50%; /* Corta a imagem em um círculo */
+    border: 3px solid #007BFF; /* Borda azul */
+}
+
+h1 {
+    margin: 10px 0;
+    color: #007BFF; /* Cor azul para o título */
+}
+
+nav {
+    text-align: center;
+    margin: 20px 0;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: #007BFF; /* Cor azul dos links */
+    font-weight: bold; /* Negrito para os links */
+}
+
+iframe {
+    width: 100%; /* Ocupa toda a largura */
+    height: 500px; /* Altura do iframe */
+    border: none; /* Remove a borda do iframe */
+    display: block; /* Garante que o iframe é um bloco */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove padding */
+}
+
+#contato {
+    padding: 20px;
+    background-color: #fff; /* Fundo branco para a seção de contato */
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #007BFF; /* Cor azul para o rodapé */
+    color: white; /* Texto branco no rodapé */
+}
+
+hr {
+    border: 1px solid #007BFF; /* Linha azul para separação */
+    margin: 20px 0; /* Margem em cima e embaixo da linha */
+}
+
+/* Estilização do formulário */
+form {
+    max-width: 600px; /* Largura máxima do formulário */
+    margin: 20px auto; /* Centraliza o formulário na página */
+    padding: 20px; /* Espaçamento interno */
+    background-color: #fff; /* Fundo branco para o formulário */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+fieldset {
+    border: 1px solid #007BFF; /* Borda azul para o fieldset */
+    border-radius: 8px; /* Bordas arredondadas */
+    padding: 15px; /* Espaçamento interno */
+    margin: 0; /* Remove margens */
+    overflow: hidden; /* Impede que conteúdo interno ultrapasse */
+}
+
+legend {
+    font-weight: bold; /* Negrito para o título do fieldset */
+    color: #007BFF; /* Cor azul para o título do fieldset */
+}
+
+label {
+    display: block; /* Faz com que os labels ocupem toda a largura */
+    margin: 10px 0 5px; /* Margens para os labels */
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="file"],
+input[type="time"],
+input[type="date"],
+select,
+textarea {
+    width: calc(100% - 22px); /* Largura total menos padding e borda */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 15px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda padrão */
+    border-radius: 4px; /* Bordas arredondadas */
+    box-sizing: border-box; /* Inclui padding e borda no cálculo da largura */
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007BFF; /* Cor de fundo azul */
+    color: white; /* Texto branco */
+    border: none; /* Remove borda */
+    padding: 10px 15px; /* Espaçamento interno */
+    border-radius: 4px; /* Bordas arredondadas */
+    cursor: pointer; /* Muda o cursor ao passar o mouse */
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+textarea {
+    resize: vertical; /* Permite redimensionar verticalmente */
+}
