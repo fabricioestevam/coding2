@@ -1,40 +1,56 @@
-
-body {
+body { 
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; 
-    color: #333; 
+    background-color: #f5f5dc; /* Bege claro */
+    color: #4d4d4d; /* Marrom escuro */
 }
 
 #apresentacao {
     text-align: center;
     padding: 20px;
-    background-color: #fff; 
-    border-bottom: 2px solid #007BFF; 
+    background-color: #fffaf0; /* Bege suave */
+    border-bottom: 2px solid #d2b48c; /* Bege mais escuro */
 }
 
 #apresentacao img {
     height: 200px;
     border-radius: 50%; 
-    border: 3px solid #007BFF; 
+    border: 3px solid #d2b48c; /* Bege mais escuro */
 }
 
 h1 {
     margin: 10px 0;
-    color: #007BFF; 
+    color: #a0522d; /* Marrom pastel */
 }
 
 nav {
-    text-align: center;
-    margin: 20px 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    background-color: #fffaf0; /* Bege suave */
+    padding: 10px 0; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex; 
+    justify-content: center; 
+    z-index: 1000; 
 }
 
 nav a {
-    margin: 0 15px;
+    margin: 0 30px; 
     text-decoration: none; 
-    color: #007BFF; 
+    color: #a0522d; /* Marrom pastel */
     font-weight: bold; 
+}
+
+nav a:hover {
+    color: #8b4513; /* Marrom mais escuro */
+}
+
+#center {
+    margin-top: 100px; 
+    text-align: center;
 }
 
 iframe {
@@ -48,19 +64,19 @@ iframe {
 
 #contato {
     padding: 20px;
-    background-color: #fff; 
+    background-color: #fffaf0; /* Bege suave */
     text-align: center;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #007BFF; 
+    background-color: #a0522d; /* Marrom pastel */
     color: white; 
 }
 
 hr {
-    border: 1px solid #007BFF; 
+    border: 1px solid #d2b48c; /* Bege mais escuro */
     margin: 20px 0; 
 }
 
@@ -68,13 +84,13 @@ form {
     max-width: 600px; 
     margin: 20px auto; 
     padding: 20px; 
-    background-color: #fff; 
+    background-color: #fffaf0; /* Bege suave */
     border-radius: 8px; 
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
 fieldset {
-    border: 1px solid #007BFF; 
+    border: 1px solid #d2b48c; /* Bege mais escuro */
     border-radius: 8px; 
     padding: 15px;
     margin: 0; 
@@ -83,7 +99,7 @@ fieldset {
 
 legend {
     font-weight: bold; 
-    color: #007BFF; 
+    color: #a0522d; /* Marrom pastel */
 }
 
 label {
@@ -102,14 +118,14 @@ textarea {
     width: calc(100% - 22px); 
     padding: 10px; 
     margin-bottom: 15px; 
-    border: 1px solid #ccc; 
+    border: 1px solid #c5b358; /* Bege médio */
     border-radius: 4px; 
     box-sizing: border-box; 
 }
 
 input[type="submit"],
 input[type="reset"] {
-    background-color: #007BFF; 
+    background-color: #d2b48c; /* Bege escuro */
     color: white; 
     border: none; 
     padding: 10px 15px; 
@@ -119,7 +135,7 @@ input[type="reset"] {
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-    background-color: #0056b3; 
+    background-color: #8b4513; /* Marrom mais escuro */
 }
 
 textarea {
